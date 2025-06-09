@@ -11,21 +11,16 @@
   color: #222
   padding: 2em 1em;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: block; /* отключаем флекс */
 }
 header h1 {
   background: linear-gradient(90deg, #ff6eb4, #ff1493);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0;
+  margin: 0.3em 0 0 0 ;
   font-size: 2.5em;
 }
 header p {
-  width: 100%;
   margin-top: 0.2em;
   font-size: 1.1em;
   color: #ccc;
@@ -41,7 +36,7 @@ header p {
 <body>
 
 <header>
-  <img src="Лого (demo обрез).png" alt="Логотип Музыка случилась" style="height:60px; vertical-align: middle; margin-right: 15px;">
+  <img src="Лого (demo обрез).png" alt="Логотип Музыка случилась" style="height:120px; margin-bottom: 10px;">
   <h1 style="display: inline-block; vertical-align: middle; margin: 0;">
     Музыка случилась
   </h1>
